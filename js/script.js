@@ -14,7 +14,6 @@ function loadBody(){
 	document.getElementById("add_button").addEventListener("click", checkInput);
 	loadNewElement();
 	total();
-
 }
 
 function displayAllProducts(){
@@ -30,10 +29,6 @@ function displayAllProducts(){
 			<td class="subtotal">${article.price * article.quantity} </td>
 		</tr>`).join(" ")}`;
 		loadNewElement();
-
-		
-	
-	
 }
 
 function loadNewElement(){
